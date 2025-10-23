@@ -7,6 +7,7 @@ import { FadeUp } from "@/components/motion/FadeUp";
 import { HeroParallax } from "@/components/motion/HeroParallax";
 import { TiltCard } from "@/components/motion/TiltCard";
 import { HeroCanvas } from "@/components/three/HeroCanvas";
+import { Footer } from "@/components/Footer";
 
 // Client logos data
 const CLIENT_LOGOS = [
@@ -315,6 +316,7 @@ export default function Home() {
 			<HeroSection />
 			<ClientLogosSection />
 			<ScaleFeaturesSection />
+			<Footer />
 		</main>
 	);
 }
